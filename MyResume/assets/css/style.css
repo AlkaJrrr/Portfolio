@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #000000;
+  background: transparent;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
   color: rgb(255, 255, 255);
-  background: #000000;
+  background: rgba(0, 0, 0, 0.603);
 }
 .nav-menu a:hover span, .nav-menu .active span, .nav-menu .active:focus span, .nav-menu li:hover > a span {
   color: rgb(255, 255, 255);
@@ -235,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #0563bb;
+  background-color: transparent;
 }
 
 /*--------------------------------------------------------------
